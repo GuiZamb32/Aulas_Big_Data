@@ -30,15 +30,15 @@ Este repositório tem como principais objetivos:
 
 O conteúdo está organizado por aulas, seguindo uma evolução dos conceitos básicos para arquiteturas de processamento e armazenamento de dados mais completas.
 
-### AULA01 — Bancos de Dados e Sistemas Distribuídos
+#### AULA01 — Bancos de Dados e Sistemas Distribuídos
 
-### AULA02 — Modelos de Dados NoSQL
+#### AULA02 — Modelos de Dados NoSQL
 
-### AULA03 — PySpark Básico
+#### AULA03 — PySpark Básico
 
-### AULA04 — PySpark e Armazenamento em Nuvem
+#### AULA04 — PySpark e Armazenamento em Nuvem
 
-### AULA05 — Arquitetura Medalhão
+#### AULA05 — Arquitetura Medalhão
 
 ---
 
