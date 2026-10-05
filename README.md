@@ -2,7 +2,7 @@
 
 Repositório destinado ao estudo prático de **Big Data, bancos de dados distribuídos, processamento de dados, ETL, computação em nuvem e arquiteturas de dados**.
 
-O projeto reúne os materiais, códigos, exercícios e laboratórios desenvolvidos ao longo das aulas, organizados progressivamente desde conceitos de bancos NoSQL até a construção de pipelines de dados utilizando **Apache Spark, PySpark, AWS S3, Azure Blob Storage e arquitetura Medalhão**.
+O projeto reúne os materiais, códigos, exercícios e laboratórios desenvolvidos ao longo das aulas, organizados progressivamente desde conceitos de bancos NoSQL até a construção de pipelines de dados utilizando **Apache Spark, PySpark, AWS S3, Azure Blob Storage, arquitetura Medalhão e Spark ML**.
 
 A proposta do repositório é manter uma documentação prática e organizada do processo de aprendizagem, permitindo acompanhar a evolução dos conceitos e das implementações realizadas.
 
@@ -22,13 +22,15 @@ Este repositório tem como principais objetivos:
 * Trabalhar com armazenamento de objetos em ambientes de nuvem.
 * Implementar processos de ingestão, transformação, validação e agregação.
 * Aplicar a arquitetura Medalhão em pipelines de dados.
+* Explorar Machine Learning distribuído utilizando Spark ML.
+* Trabalhar com aprendizado supervisionado e não supervisionado.
 * Desenvolver uma base prática para projetos de Engenharia de Dados e Ciência de Dados.
 
 ---
 
 ## Conteúdo do Repositório
 
-O conteúdo está organizado por aulas, seguindo uma evolução dos conceitos básicos para arquiteturas de processamento e armazenamento de dados mais completas.
+O conteúdo está organizado por aulas, seguindo uma evolução dos conceitos básicos para arquiteturas de processamento, armazenamento e análise de dados mais completas.
 
 #### AULA01 — Bancos de Dados e Sistemas Distribuídos
 
@@ -39,6 +41,8 @@ O conteúdo está organizado por aulas, seguindo uma evolução dos conceitos b�
 #### AULA04 — PySpark e Armazenamento em Nuvem
 
 #### AULA05 — Arquitetura Medalhão
+
+#### AULA06 — Spark ML e Machine Learning
 
 ---
 
@@ -51,6 +55,7 @@ As principais tecnologias utilizadas no repositório incluem:
 | Python             | Desenvolvimento dos scripts e pipelines   |
 | PySpark            | Processamento e transformação de dados    |
 | Apache Spark       | Motor de processamento distribuído        |
+| Spark MLlib        | Machine Learning distribuído              |
 | PostgreSQL         | Banco de dados relacional                 |
 | Redis              | Armazenamento em memória                  |
 | Cassandra          | Banco NoSQL distribuído                   |
@@ -100,12 +105,27 @@ Ao longo das aulas são explorados conceitos importantes para Big Data e Engenha
 * Silver.
 * Gold.
 * Pipelines de dados.
+* Machine Learning.
+* Spark MLlib.
+* Aprendizado supervisionado.
+* Aprendizado não supervisionado.
+* Classificação.
+* Regressão.
+* Clusterização.
+* Redução de dimensionalidade.
+* Avaliação de modelos.
+* Validação cruzada.
+* Ajuste de hiperparâmetros.
+* Sistemas de recomendação.
+* Processamento de texto.
 
 ---
 
 ## Organização
 
 Cada laboratório possui sua própria documentação, scripts, exercícios e instruções de configuração quando necessário.
+
+As atividades mais avançadas utilizam a estrutura de processamento em camadas **Bronze, Silver e Gold**, permitindo separar ingestão, preparação e aplicação dos modelos ou transformações.
 
 ---
 
@@ -122,7 +142,10 @@ Em vez de apenas apresentar conceitos teóricos, os laboratórios procuram demon
 * Processamento de dados reais e sintéticos.
 * Exercícios práticos.
 * Pipelines de ETL.
+* Pipelines de ELT.
+* Aplicação de modelos de Machine Learning.
 * Comparação entre diferentes arquiteturas.
+* Avaliação de resultados e métricas.
 * Validação dos resultados obtidos.
 
 Essa abordagem permite relacionar os conceitos teóricos com situações próximas das encontradas em ambientes reais de dados.
@@ -158,7 +181,16 @@ Pipelines de Dados
 Arquitetura Medalhão
       │
       ▼
+Spark ML
+      │
+      ▼
+Machine Learning
+      │
+      ▼
 Engenharia de Dados
+      │
+      ▼
+Ciência de Dados
 ```
 
 Dessa forma, os conteúdos das primeiras aulas servem como base para os laboratórios mais avançados.
@@ -181,6 +213,12 @@ ou:
 
 ```bash
 cd AULA05/PYSPARK-MEDALHAO
+```
+
+ou:
+
+```bash
+cd AULA06/PYSPARK-SPARK-ML
 ```
 
 Os arquivos `SETUP.md`, quando disponíveis, apresentam as configurações necessárias para execução do ambiente.
@@ -218,6 +256,22 @@ Os laboratórios foram organizados para que cada pasta possa ser estudada de man
 | AULA03 | Processamento de dados       | Python, PySpark, Apache Spark                    |
 | AULA04 | ETL e armazenamento em nuvem | PySpark, AWS S3, Azure Blob                      |
 | AULA05 | Arquitetura Medalhão         | PySpark, Bronze, Silver, Gold                    |
+| AULA06 | Machine Learning             | Spark MLlib, PySpark, Spark ML                   |
+
+---
+
+
+A estrutura da aula está dividida em diferentes laboratórios:
+
+| Laboratório                           | Conteúdo                                      |
+| ------------------------------------- | --------------------------------------------- |
+| `PYSPARK-SPARK-ML`                    | Spark ML integrado ao ELT Medalhão            |
+| `PYSPARK-SPARK-ML-PARTE2`             | Fraude, classificação de texto e recomendação |
+| `PYSPARK-SPARK-ML-PARTE3`             | Manutenção preditiva e validação cruzada      |
+| `PYSPARK-SPARK-ML-SUPERVISIONADO`     | Classificação e regressão supervisionadas     |
+| `PYSPARK-SPARK-ML-NAO-SUPERVISIONADO` | K-Means e PCA                                 |
+
+A documentação detalhada de cada laboratório está disponível dentro de suas respectivas pastas.
 
 ---
 
