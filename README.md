@@ -105,39 +105,6 @@ Ao longo das aulas são explorados conceitos importantes para Big Data e Engenha
 
 ## Organização
 
-A estrutura geral do projeto segue a organização abaixo:
-
-```text
-Aulas_Big_Data/
-│
-├── AULA01/
-│   ├── RDS/
-│   ├── cassandra/
-│   ├── dynamodb-scylladb/
-│   └── elastic-cache-redis/
-│
-├── AULA02/
-│   ├── Collumn/
-│   ├── Document/
-│   └── KeyValue/
-│
-├── AULA03/
-│   └── PYSPARK-BASICO/
-│
-├── AULA04/
-│   ├── PYSPARK-AWS-S3/
-│   └── PYSPARK-AZURE-BLOB/
-│
-├── AULA05/
-│   ├── PYSPARK-MEDALHAO/
-│   ├── PYSPARK-MEDALHAO-AWS-S3/
-│   └── PYSPARK-MEDALHAO-AZURE-BLOB/
-│
-├── .gitignore
-├── LICENSE
-└── README.md
-```
-
 Cada laboratório possui sua própria documentação, scripts, exercícios e instruções de configuração quando necessário.
 
 ---
